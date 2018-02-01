@@ -11,6 +11,7 @@ function mash_choice() {  // New function called mash_choice that doesn't take a
     return mash[randomNum];  // Return the list item the random number function just picked and exit the function 
 }
 
+
 function get_answer(category) { 
     // Get a random answer from the available answers in a given category
     var choices = [];  // A blank array to hold the user provided answer  
