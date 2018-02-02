@@ -11,12 +11,14 @@ body {
 }
 
 .logo{
-  width: 100%;
+  width: 75%;
 }
 
 .logo img {
   margin: 0 auto;
   display: block;
+  width: 75;
+  height: auto;
 }
 
 .title {
