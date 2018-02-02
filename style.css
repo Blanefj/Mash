@@ -22,10 +22,9 @@ body {
 }
 
 .title {
+  color: #088DB2;
   margin: 80px auto 40px;
   text-align: center;
-  color: 088DB2;
-  
 }
 
 .description {
