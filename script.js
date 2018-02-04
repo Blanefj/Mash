@@ -11,29 +11,29 @@ function mash_choice() {  // New function called mash_choice that doesn't take a
     return mash[randomNum];  // Return the list item the random number function just picked and exit the function
 }
 
-function cuss_choice() {  // New function called mash_choice that doesn't take any parameters
+function cuss_choice() {  // New function called cuss_choice that doesn't take any parameters
     // Since MASH is a special case, give it its own list
     var cuss =  ['f*cking', 'sh*thole', 'bumf*ck', 'sh*tmagnet']; // The array of choices to pick from
     var randomNum = random_number(4);  // Use the above function to get a number between 0 and 4
     return cuss[randomNum];  // Return the list item the random number function just picked and exit the function
 }
 
-function cussOne_choice() { //  New function called cusstwo_choice that doesn't take any parameters
-    // Since CUSS is a special case, give it its own list
+function cussOne_choice() { //  New function called cussOne_choice that doesn't take any parameters
+    // Since cussOne is a special case, give it its own list
   var cussOne = ['dumb*ss', 'fucktard', 'lil b*tch a*s', 'b*stard'];  // The array of choices to pick from
     var randomNum = random_number(4);  // Use the above function to get a number between 0 and 4
      return cussOne[randomNum];  // Return the list item the random number function just picked and exit the function
 }
 
 function cussTwo_choice() { //  New function called cusstwo_choice that doesn't take any parameters
-    // Since CUSS is a special case, give it its own list
+    // Since cussTwo is a special case, give it its own list
   var cussTwo = ['sh*tty', 'd*ck head', 'piss poor', 'sh*ttastic'];  // The array of choices to pick from
     var randomNum = random_number(4);  // Use the above function to get a number between 0 and 4
      return cussTwo[randomNum];  // Return the list item the random number function just picked and exit the function
 }
 
-function cussThree_choice() { //  New function called cusstwo_choice that doesn't take any parameters
-    // Since CUSS is a special case, give it its own list
+function cussThree_choice() { //  New function called cussThree_choice that doesn't take any parameters
+    // Since cussThree is a special case, give it its own list
   var cussThree = ['f*cked up', 'sh*t stained', 'mother f*cking', 'd*mn'];   // The array of choices to pick from
     var randomNum = random_number(4);  // Use the above function to get a number between 0 and 4
      return cussThree[randomNum];  // Return the list item the random number function just picked and exit the function
