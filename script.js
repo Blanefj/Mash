@@ -20,7 +20,7 @@ function cuss_choice() {  // New function called cuss_choice that doesn't take a
 
 function cussOne_choice() { //  New function called cussOne_choice that doesn't take any parameters
     // Since cussOne is a special case, give it its own list
-  var cussOne = ['dumb*ss', 'fucktard', 'lil b*tch a*s', 'b*stard'];  // The array of choices to pick from
+  var cussOne = ['dumb*ss', 'f*cktard', 'lil b*tch a*s', 'b*stard'];  // The array of choices to pick from
     var randomNum = random_number(4);  // Use the above function to get a number between 0 and 4
      return cussOne[randomNum];  // Return the list item the random number function just picked and exit the function
 }
